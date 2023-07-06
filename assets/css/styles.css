@@ -1,0 +1,75 @@
+@import url(./colors.css);
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    width: 90vh;
+}
+.navbar {
+    background-color: var(--color-blue-menu) !important;
+}
+
+.login {
+    margin-left: 87vmax !important;
+    position: absolute;
+
+}
+
+.nav-link,.navbar-brand {
+    color: var(--color-white) !important;
+
+} 
+
+
+
+.title-center {
+    justify-content:center !important;
+}
+
+.sobre {
+    min-height: 60vh;
+}
+
+.btn {
+    background-color: var(--color-blue-menu) ;
+    color:var(--color-white)
+}
+
+.btn:hover {
+    border: 1px solid  var(--color-blue-menu);
+}
+
+.container-icons {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icon {
+    font-size: 60px;
+    color:var(--color-blue-menu);
+    margin: 24px 0;
+    transition: .5s;  
+}
+
+.card:hover .icon {
+    transform: scale(1.5);
+    
+}
+
+.card:hover {
+    background-color: var(--color-blue-light);
+}
+
+.item-icons {
+    width: 100px;
+    border: 1px solid var(--color-blue-menu);
+    height: 150px;
+    margin: 24px;
+    border-radius: 5px;
+    align-items: center !important;
+    justify-content: center !important;
+
+}
